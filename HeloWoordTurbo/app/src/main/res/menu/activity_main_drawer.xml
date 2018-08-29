@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tela1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tela 1"
+            />
+
+        <item
+            android:id="@+id/nav_tela2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tela 2"
+            />
+
+        <item
+            android:id="@+id/nav_tela3"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tela 3"
+            />
+
+        <item
+            android:id="@+id/nav_listaPedidos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lista de Pedidos"
+            />
+        <item
+            android:id="@+id/nav_listaPedidosSofisticado"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lista de Pedidos Sofisticado"
+            />
+
+        <item
+            android:id="@+id/nav_listaPedidosMenu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lista de Pedidos Menu"
+            />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ordes"
+            />
+
+        <item
+            android:id="@+id/nav_interst_products"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Interest Products"
+            />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuração"
+            />
+
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            android:title="Register"
+            />
+
+    </group>
+
+</menu>
